@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: relative;
+  background-color: rgb(194, 141, 26);
+  color: navy;
+  padding: 15px;
+}
+
+.links a {
+  color: navy;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.header {
+  padding: 5px;
+}
+
+.links a:hover {
+  border-bottom: 3px solid navy;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition-property: border-buttom;
+  transition-timing-function: ease-out;
+  transition-duration: 5s;
+  transition-delay: 2ms;
+}
+
+.page-name {
+  font-family: "Shantell Sans";
+  text-align: center;
+  color: rgb(22, 155, 155);
+  padding: 10px;
+  font-size: 30px;
+}
+
+.container {
+  background-color: rgb(194, 141, 26);
+  width: 300px;
+  height: -moz-max-content;
+  height: max-content;
+  margin: auto;
+  text-align: center;
+  color: navy;
+  padding: 30px;
+  border-radius: 10px;
+  bottom: 0;
+}
+.container .list ol li a {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  color: navy;
+  text-decoration: none;
+}
+
+footer {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  background-color: rgb(22, 155, 155);
+  color: navy;
+  padding: 20px;
+  text-align: center;
+}
+
+.row1 img,
+.row2 img {
+  width: 170px;
+  height: 200px;
+  border: 4px solid rgb(194, 141, 26);
+  border-radius: 5px;
+  margin: auto;
+  left: 17.5%;
+  position: relative;
+}
+
+main {
+  margin: auto;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-landscape img {
+  width: 230px;
+  height: 160px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  left: 5%;
+  border: 4px solid rgb(194, 141, 26);
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */

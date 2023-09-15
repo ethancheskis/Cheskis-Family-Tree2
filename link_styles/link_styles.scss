@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.header {
+    color: navy;
+    border-bottom: 3px solid navy;
+    width: fit-content;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+a {
+    color: rgb(194, 141, 26);
+    text-decoration: none;
+    padding: 10px;
+}
+
+i {
+    color: rgb(194, 141, 26);
+    padding: 5px;
+}
+
+.picture img {
+    width: 250px;
+    height: 325px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    left: 40.5%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.container {
+    background-color: aqua;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    color: navy;
+    padding: 10px;
+}
+
+.bio {
+    padding: 5px;
+    text-align: center;
+}
+
+.bio p {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.more-pictures {
+    text-align: center;
+    background-color: navy;
+    width: max-content;
+    padding: 10px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.row1 img {
+    width: 170px;
+    height: 230px;
+    border: 4px solid rgb(194, 141, 26);
+    border-radius: 5px;
+    margin: auto;
+    left: 25%;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: relative;
+    background-color: rgb(22, 155, 155);
+    color: navy;
+    padding: 20px;
+    text-align: center;
+}
+
+.more-info {
+    text-align: center;
+    background-color: navy;
+    width: max-content;
+    padding: 10px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+.picture-landscape img {
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    left: 38%;
+    position: relative;
+}
